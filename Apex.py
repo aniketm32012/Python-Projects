@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('https://www.youtube.com/'))
+        self.browser.setUrl(QUrl('http://google.com'))
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
@@ -49,6 +49,6 @@ class MainWindow(QMainWindow):
         self.url_bar.setText(q.toString())
 
 app = QApplication(sys.argv)
-QApplication.setApplicationName('                                                                                                                                                                                                        Apex                        feedback:aniketm32012@gmail.com')
+QApplication.setApplicationName('                                                                                                                                                                                                        Apexx                        feedback:aniketm32012@gmail.com')
 window = MainWindow()
 app.exec_()
