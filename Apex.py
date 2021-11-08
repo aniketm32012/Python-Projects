@@ -49,6 +49,6 @@ class MainWindow(QMainWindow):
         self.url_bar.setText(q.toString())
 
 app = QApplication(sys.argv)
-QApplication.setApplicationName('                                                                                                                                                                                                        Apex                        feedback:aniketm32012@gmail.com')
+QApplication.setApplicationName('                                                                                                                                                                                                        Apexx                        feedback:aniketm32012@gmail.com')
 window = MainWindow()
 app.exec_()
